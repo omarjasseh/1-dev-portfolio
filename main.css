@@ -1,0 +1,130 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"); */
+
+/* Start of basic CSS Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+/* End of basic CSS Reset */
+
+/* Body styles */
+body {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  color: #f5f8fa;
+  background-color: #1e293b;
+}
+
+/* End of Body styles */
+/* Start of Navbar styles */
+.navbar {
+  padding-inline: 80px;
+  padding-block: 15px;
+  border-bottom: 3px solid teal;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.logo {
+  font-size: 20px;
+  color: #14b8a6;
+  font-weight: 900;
+}
+
+.logo-dot {
+  height: 6px;
+  width: 6px;
+  background-color: #14b8a6;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+}
+/* End of Navbar styles */
+
+/* Start of Hero styles */
+.hero {
+  text-align: center;
+}
+
+.avatar {
+  display: inline;
+  width: 200px;
+  border-radius: 100px;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 50px;
+}
+
+/* Descendant Selector */
+h1 span {
+  color: #14b8a6;
+}
+
+.hero {
+  padding-bottom: 60px;
+}
+.hero p {
+  /* text-align: left; */
+  margin: auto; /*margin-top, margin-right, margin-bottom, margin-left*/
+  margin-top: 20px;
+  width: 600px;
+  line-height: 20px;
+}
+
+.cta-buttons {
+  margin-top: 30px;
+}
+
+.btn {
+  /* padding: 14px 30px; */
+  padding-top: 12px;
+  padding-right: 30px;
+  padding-bottom: 12px;
+  padding-left: 30px;
+
+  border-radius: 8px;
+  border: none;
+
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: teal;
+  color: white;
+  margin-right: 20px;
+  border: 2px solid transparent;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #f1f5f9;
+  border: 2px solid #b1becf;
+  /* #f1f5f9;
+  --text-muted: #b1becf; */
+}
