@@ -128,3 +128,10 @@ h1 span {
   /* #f1f5f9;
   --text-muted: #b1becf; */
 }
+
+/* Styling main */
+main {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #334155;
+}
