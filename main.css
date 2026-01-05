@@ -131,9 +131,12 @@ h1 span {
 
 /* Styling main */
 main {
-  padding-top: 60px;
-  padding-bottom: 60px;
   background-color: #334155;
+}
+
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .section-heading {
@@ -199,4 +202,93 @@ h2 {
 
 .link:hover {
   text-decoration: underline;
+}
+
+.about-content-wrapper ul li {
+  margin-bottom: 8px;
+}
+
+/* Styling Skills Section */
+#skills {
+  background-color: #1e293b;
+}
+
+.skills-wrapper {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  margin-top: 40px;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.skill-box {
+  height: 100px;
+  width: 300px;
+  border: 1px solid 475569;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: #334155;
+}
+
+/* Styling Projects */
+
+.projects-wrapper {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  width: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #1e293b;
+}
+
+.card-header {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+}
+
+.card-header img {
+  width: 100%;
+  /* display: block; */
+}
+
+.card-body {
+  padding: 20px 15px;
+}
+
+.card-body h3 {
+  font-size: 20px;
+}
+
+.card-body p {
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+.technologies-wrapper {
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.technology-badge {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 5px 12px;
+  border-radius: 20px;
+  background-color: #5fd6c8e6;
+  color: #051a17e6;
 }
