@@ -22,6 +22,10 @@ ul {
 /* End of basic CSS Reset */
 
 /* Body styles */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
@@ -34,13 +38,26 @@ body {
 
 /* End of Body styles */
 /* Start of Navbar styles */
+header {
+  background-color: #0f172a;
+}
 .navbar {
-  padding-inline: 80px;
-  padding-block: 15px;
-  border-bottom: 3px solid teal;
+  /* padding-inline: 80px; */
+  padding-left: 80px;
+  padding-right: 80px;
+  /* padding-block: 15px; */
+  padding-top: 15px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #14b8a6;
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
+  /* CSS Positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0f172a;
 }
 
 .logo {
@@ -65,6 +82,7 @@ nav ul {
 
 /* Start of Hero styles */
 .hero {
+  padding-top: 85px;
   text-align: center;
 }
 
